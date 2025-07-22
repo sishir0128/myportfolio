@@ -1,0 +1,42 @@
+.container
+{
+    background-color:grey;
+    display:flex;
+    width:100%;
+    max-width:1000px;
+    
+    flex-wrap:wrap;
+    
+    
+
+}
+.boxa
+{
+    height:100px;
+    flex-basis:80px;
+    background-color:yellow;
+      flex-grow:1;
+    
+  
+}
+
+.boxb
+{
+    height:100px;
+    flex-basis:80px;
+    background-color:red;  flex-grow:1;
+    
+     
+}
+
+.boxc
+{
+    height:100px;
+  flex-basis:80px;
+    background-color:blue;
+    flex-grow:1;
+   
+    }
+
+ 
+

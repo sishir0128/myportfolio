@@ -1,0 +1,79 @@
+*
+{
+    margin:0px;
+}
+body
+{
+background-color:white;
+}
+div
+{
+    margin:0px;
+    display:flex;
+    background-color:#333;
+    animation-name:animation;
+    animation-duration:3s;
+    animation-fill-mode:both;
+
+
+}
+ul{
+   
+    flex-grow:1;
+    margin:0px;
+    display:flex;
+    padding-left:0px;
+    background-color:#333;
+
+}
+
+li
+{   
+    
+    padding:6px;
+    
+    
+}
+
+a
+{
+    text-decoration:none;
+    font-family:verdena;
+    color:white;
+    
+}
+li:hover
+{
+    background-color:#555;
+}
+ul.social
+{
+    justify-content:flex-end;
+}
+.social li.ab
+{
+    z-index:1;
+    background:url(fb.png) no-repeat;
+    background-size:40%;
+    background-position:center;
+    
+}
+.social li.cd
+{
+    
+    background:url(tw.jpg) no-repeat;
+    background-size:80%;
+    background-position:center;
+    
+}
+.social li
+{   
+    text-indent:-1000px;
+flex-basis:50px;
+} 
+
+@keyframes animation
+{
+    from{transform:translateY(-20px)}
+    to {transform:translateY(0.05px)}
+}
