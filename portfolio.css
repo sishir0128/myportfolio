@@ -1,0 +1,235 @@
+*
+{
+    color:white;
+     font-family: Cursive;
+    
+body
+{
+    /* margin:0px;
+    min-height:100vh;
+    background:url(portfolio1.webp);
+    background-size:cover;
+    
+    background-repeat:no-repeat; */
+    background-color:black;
+
+
+}
+.introduction
+{
+    display:flex;
+    margin-left:30%;
+    margin-right:30%;
+    padding:20px;
+    margin-top:80px;
+   
+    
+    
+}
+
+ul{
+    margin-left:0px;
+    padding-left:40px;
+    
+}
+
+.sishir
+{
+    margin-top:20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(62, 61, 61);
+    border-radius:50%;
+    height:140px; 
+    min-width:140px;
+    filter:blur(2px);
+    transition:filter 1s ease-in;
+    
+    
+}
+.introduction ul li h3{
+   margin-top:22px;
+
+}
+.introduction ul li * {
+    margin:7px;
+    
+}
+.introduction ul li p{
+   margin-top:10px;
+
+}
+.sishir:hover
+{
+    filter:blur(0px);
+}
+
+
+.connect
+{
+    display:flex;
+    background-color:black;;
+    margin-left:30%;
+    margin-right:30%;
+   
+}
+.connect div 
+{
+    
+    padding-top:0px;
+    padding-left:8px;
+    flex-grow:1;
+}
+.connect div p
+{
+padding-top:0px;
+margin-top:0px;
+padding-left:27px;
+margin-bottom:4px;
+}
+.connect .resume
+{
+padding-top:0px;
+margin-top:30px;
+flex-grow:1;
+text-align:center;
+
+}
+.connect .resume a{
+ text-decoration:none;
+ background-color:green;
+ margin-top:10px;
+ padding-top:px;
+ padding-bottom:3px;
+ padding-left:10px;
+ padding-right:10px;
+ border-radius:10px; 
+ 
+}
+.social
+{
+    margin-top:0px;
+    padding-top:0px;
+    margin-left:10px;;
+    padding-left:0px;
+     
+    display:flex;
+    justify-content:flex-start;
+    width:30px;
+}
+.social a
+{   
+    margin-top:0px;
+    padding-top:0px;
+    padding-right:5px;
+    margin-right:6px;
+    margin-left:0%;
+    padding-left:0%;
+    text-decoration:none;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(62, 61, 61);
+    border-radius:300px;
+    flex-basis:80px;
+    margin-left:0px;
+    padding-left:0px;
+    flex-grow:1;
+    height:25px;
+    min-width:25px;
+    
+}
+.connect .social .l
+{
+    background:url(link.png);
+
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.connect .social .g
+{
+    background:url(fb.avif);
+    
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.connect .social .i
+{
+    background:url(instagram.jpg);
+    
+    background-position:center;
+    background-size:300%;
+    background-repeat:no-repeat;
+}
+
+.social a:hover
+{
+    transform:translateY(-5px);
+}
+.social a:focus
+{
+    opacity:0.5;
+}
+
+.connect .resume a:focus
+{
+    opacity:0.5;
+}
+.tech img
+{
+    height:30px;
+    width:30px;
+    background-color:grey;
+    border-radius:50%;
+    padding:4px;
+    
+}
+.tech
+{
+    text-align:center;
+}
+.me h3
+{   margin-top:50px;
+    text-align:center;
+    padding-top:20px;
+}
+.me p
+{
+    padding-left:25px;
+    padding-bottom:30px;
+    box-sizing:border-box;
+}
+.me
+{
+    background-color:grey;
+    border-radius:30px;
+    margin-left:30%;
+    margin-right:30%;
+}
+@media screen and (max-width:960px)
+{
+    .introduction
+    {
+        position:static;
+        display:block;
+    }
+    .sishir
+    {
+        display:block;
+        margin-left:20%;
+        margin-right:20%;
+        
+    }
+  
+
+}
+
+@media screen and (max-width:600px)
+{
+    .connect
+    {
+        display:block;
+    }
+}
+   
